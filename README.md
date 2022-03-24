@@ -26,5 +26,13 @@ pip install nncf
 ```
 
 Original ResNet18 model weights file is available upon request. 
+```
+mkdir model
+mkdir output
+```
+
+Please put the original weights file ResNet-18_fp32.h5 under the directory model. 
+
+Please uncompress the imagenette dataset under the directory dataset.
 
 If you have not done so already, please follow the [Installation Guide](../../README.md) to install all required dependencies.
